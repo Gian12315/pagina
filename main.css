@@ -1,0 +1,77 @@
+html
+{
+    background: #CDF4FD;
+
+}
+
+body
+{
+
+    background-color: #ffff;
+    font-size: 16px;
+    font-family: georgia;
+    max-width: 880;
+    margin: 0 auto;
+    padding: 20px;
+    /* padding: 70; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 0, 0, 0.3);
+
+}
+
+#b {
+    margin-bottom: 70px;
+}
+
+#itec
+{
+    transform: translate(310px, 12px);
+}
+
+#imgp
+{
+    position: fixed;
+    top: 0; /* Mantiene la parte fija en la parte superior de la ventana */
+    left: 500px; /* Mantiene la parte fija en el borde izquierdo de la ventana */
+    width: 880px; /* Ocupa todo el ancho de la ventana */
+    background-color: #FFFF; /* Color de fondo para resaltar */
+    color: #fff;
+    padding: 10px;
+    height: 130px;
+}
+
+
+
+header {
+    color: white;
+    text-align: center;
+    padding: auto;
+}
+
+nav {
+    background-color: #2B99DC;
+    height: auto;
+
+    
+}
+
+nav a {
+    background-color: #2B99DC;
+    float: left;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+        margin-bottom: 10;
+    /* margin: 0 30px; */
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: blue;
+    color: #000000;
+}
+

@@ -1,0 +1,58 @@
+html
+{
+    background: #CDF4FD;
+}
+
+#b {
+    margin-bottom: 50px;
+}
+
+#itec
+{
+    transform: translate(310px, 10px);
+}
+
+             #imgp
+{
+            position: fixed;
+            top: 0; /* Mantiene la parte fija en la parte superior de la ventana */
+            left: 300; /* Mantiene la parte fija en el borde izquierdo de la ventana */
+            width: 880px; /* Ocupa todo el ancho de la ventana */
+            background-color: #FFFF; /* Color de fondo para resaltar */
+            color: #fff;
+            padding: 10px; 
+            height: 130px;
+}
+
+            header {
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+         nav {
+            background-color: #2B99DC;
+            text-align: center;
+             padding: 7px;
+        }
+     nav li {
+            display: inline;
+            margin: 0 30px;
+         
+        }
+        
+         nav ul a {
+            text-decoration: none;
+            color: #000000;
+        }
+body
+{
+ background-color: #ffff;  
+    font-size: 16px;
+    font-family: sans-serif;
+     max-width: 880; 
+     margin: 0 auto;
+     padding: 20px;
+    padding: 70;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 0, 0, 0.3);
+   
+}
